@@ -22,6 +22,8 @@ header{
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  height: inherit;
+  width: inherit;
 }
 .nav-area{
   background: rgba(0, 0, 0, 0.5);
@@ -114,7 +116,7 @@ color: #f5bb00;
 .footer{
   position: absolute;
   background: rgba(0, 0, 0, 0.5);
-  height: 20;
+  min-height: 0;
   width: 100%;
   text-align: center;
   font-weight: bold;
@@ -128,6 +130,8 @@ color: #f5bb00;
   text-transform: capitalize;
   font-weight: bold;
   letter-spacing: 2px
+  min-height:auto;
+  max-width :auto;
 }
 .footer button{
   background-color: rgba(0, 0, 0, 0.5);
